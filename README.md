@@ -50,13 +50,13 @@ Scikit-learn
 
 The model used in this project is a Logistic Regression classifier. The email data is preprocessed by converting the text into numerical features using TF-IDF Vectorization. Key steps include:
 
-# Data Preprocessing
+### Data Preprocessing
 
 - TF-IDF Vectorization: Converting email content into numerical features based on term frequency and inverse document frequency.
   Model Training
 - Logistic Regression: A linear model is trained on the processed data to classify emails as spam or not spam.
 
-## Evaluation
+### Evaluation
 
 The model is evaluated using the following metric:
 
